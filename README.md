@@ -1,9 +1,14 @@
-# api documentation for  [homebridge-platform-wemo (v1.1.7)](https://github.com/rudders/homebridge-platform-wemo#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-homebridge-platform-wemo.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-homebridge-platform-wemo) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-homebridge-platform-wemo.svg)](https://travis-ci.org/npmdoc/node-npmdoc-homebridge-platform-wemo)
+# npmdoc-homebridge-platform-wemo
+
+#### api documentation for  [homebridge-platform-wemo (v1.1.7)](https://github.com/rudders/homebridge-platform-wemo#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-homebridge-platform-wemo.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-homebridge-platform-wemo) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-homebridge-platform-wemo.svg)](https://travis-ci.org/npmdoc/node-npmdoc-homebridge-platform-wemo)
+
 #### WeMo Platform plugin for homebridge - Blubs, Switches and Insight Switches Supported
 
-[![NPM](https://nodei.co/npm/homebridge-platform-wemo.png?downloads=true)](https://www.npmjs.com/package/homebridge-platform-wemo)
+[![NPM](https://nodei.co/npm/homebridge-platform-wemo.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/homebridge-platform-wemo)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-homebridge-platform-wemo/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-homebridge-platform-wemo_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-homebridge-platform-wemo/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-homebridge-platform-wemo/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-homebridge-platform-wemo/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-homebridge-platform-wemo/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-homebridge-platform-wemo/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-homebridge-platform-wemo/build/screenCapture.npmPackageListing.svg)
 
@@ -42,17 +47,14 @@
     "license": "ISC",
     "maintainers": [
         {
-            "name": "devbobo",
-            "email": "npm@introversion.com.au"
+            "name": "devbobo"
         },
         {
-            "name": "rudders",
-            "email": "a.rudman@binarylight.com.au"
+            "name": "rudders"
         }
     ],
     "name": "homebridge-platform-wemo",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git://github.com/rudders/homebridge-platform-wemo.git"
@@ -61,16 +63,6 @@
     "version": "1.1.7"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module homebridge-platform-wemo](#apidoc.module.homebridge-platform-wemo)
-
-
-
-# <a name="apidoc.module.homebridge-platform-wemo"></a>[module homebridge-platform-wemo](#apidoc.module.homebridge-platform-wemo)
 
 
 
