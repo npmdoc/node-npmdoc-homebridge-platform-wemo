@@ -1,4 +1,4 @@
-<div class="apidocDiv">
+<html><head></head><body><div class="apidocDiv">
 <style>
 /*csslint
 */
@@ -47,17 +47,10 @@
 }
 </style>
 <h1>api documentation for
-    <a
-
-        href="https://github.com/rudders/homebridge-platform-wemo#readme"
-
-    >homebridge-platform-wemo (v1.1.7)</a>
+    <a href="https://github.com/rudders/homebridge-platform-wemo#readme">homebridge-platform-wemo (v1.1.7)</a>
 </h1>
 <h4>WeMo Platform plugin for homebridge - Blubs, Switches and Insight Switches Supported</h4>
-<div class="apidocSectionDiv"><a
-    href="#apidoc.tableOfContents"
-    id="apidoc.tableOfContents"
-><h1>table of contents</h1></a><ol>
+<div class="apidocSectionDiv"><a href="#apidoc.tableOfContents" id="apidoc.tableOfContents"><h1>table of contents</h1></a><ol>
 
     <li class="apidocModuleLi"><a href="#apidoc.module.homebridge-platform-wemo">module homebridge-platform-wemo</a><ol>
 
@@ -92,36 +85,36 @@
     UUIDGen = homebridge.hap.uuid;
 
     Consumption = function() {
-        Characteristic.call(this, &#x27;Consumption&#x27;, &#x27;E863F10D-079E-48FF-8F27-9C2605A29F52&#x27;);
+        Characteristic.call(this, 'Consumption', 'E863F10D-079E-48FF-8F27-9C2605A29F52');
 
         this.setProps({
             format: Characteristic.Formats.UINT16,
-            unit: &#x27;W&#x27;,
+            unit: 'W',
             perms: [Characteristic.Perms.READ, Characteristic.Perms.NOTIFY]
         });
 
         this.value = this.getDefaultValue();
     };
-    require(&#x27;util&#x27;).inherits(Consumption, Characteristic);
+    require('util').inherits(Consumption, Characteristic);
 
-    Consumption.UUID = &#x27;E863F10D-079E-48FF-8F27-9C2605A29F52&#x27;;
+    Consumption.UUID = 'E863F10D-079E-48FF-8F27-9C2605A29F52';
 
     TotalConsumption = function() {
-        Characteristic.call(this, &#x27;Total Consumption&#x27;, &#x27;E863F10C-079E-48FF-8F27-9C2605A29F52&#x27;);
+        Characteristic.call(this, 'Total Consumption', 'E863F10C-079E-48FF-8F27-9C2605A29F52');
 
         this.setProps({
             format: Characteristic.Formats.UINT32,
-            unit: &#x27;kWh&#x27;,
+            unit: 'kWh',
             perms: [Characteristic.Perms.READ, Characteristic.Perms.NOTIFY]
         });
 
         this.value = this.getDefaultValue();
     };
-    require(&#x27;util&#x27;).inherits(TotalConsumption, Characteristic);
+    require('util').inherits(TotalConsumption, Characteristic);
 
-    TotalConsumption.UUID = &#x27;E863F10C-079E-48FF-8F27-9C2605A29F52&#x27;;
+    TotalConsumption.UUID = 'E863F10C-079E-48FF-8F27-9C2605A29F52';
 
-    homebridge.registerPlatform(&#x22;homebridge-platform-wemo&#x22;, &#x22;BelkinWeMo&#x22;, WemoPlatform, true);
+    homebridge.registerPlatform("homebridge-platform-wemo", "BelkinWeMo", WemoPlatform, true);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -135,3 +128,4 @@
     ]
 </div>
 </div>
+</body></html>
